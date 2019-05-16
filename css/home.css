@@ -1,0 +1,52 @@
+
+body{
+    width: auto;
+    /* height: 100vw; */
+    font-family: "Josefin sans",sans-serif;
+    color: white;
+}
+.container{
+    background: linear-gradient(rgba(0, 149, 229, 0.644),
+    rgba(0, 149, 229, 0.616)),
+    url("https://nukta.co.tz/media/ebd558eeb42b1cf81353f6aa86d894bb12a19866.jpg");
+    height: 100vh;
+    margin-top: -1.3em;
+
+}
+.nav{
+    padding: 3em 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo{
+    font-size: 1em;
+    letter-spacing: .1em;
+}
+.nav-btn{
+    margin-top: .48em;
+    font-size: 1.7em;
+}
+
+.banner{
+    text-align: center;
+    margin-top: 4.5em;
+}
+#sub-title{
+    font-weight: lighter;
+    font-size: 1.6em;
+    letter-spacing: 0.5px
+
+}
+h1{
+    font-size: 3.5em;
+}
+.get-started{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: blue;
+    padding: .6em;
+    font-size: .75em;
+    width: 110px;
+}
